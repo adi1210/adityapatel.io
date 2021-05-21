@@ -344,6 +344,11 @@ section {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width:750px){
+  .about {
+    display: contents;
+  }
+}
 
 /*--------------------------------------------------------------
 
@@ -384,6 +389,12 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
+}
+
+@media only screen and (max-width:750px){
+  .skills {
+    display: contents;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -449,7 +460,11 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
-
+@media only screen and (max-width:750px){
+  .resume {
+    display: contents;
+  }
+}
 /*--------------------------------------------------------------
 
 /*--------------------------------------------------------------
@@ -616,6 +631,12 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
+}
+
+@media only screen and (max-width:750px){
+  .contact {
+    display: contents;
+  }
 }
 
 @-webkit-keyframes animate-loading {
